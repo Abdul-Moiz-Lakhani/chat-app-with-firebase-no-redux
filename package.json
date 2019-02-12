@@ -1,8 +1,10 @@
 {
+  "homepage": "http://abdul-moiz-lakhani.github.io/chat-app-with-firebase-no-redux",
   "name": "chat-app-with-firebase-no-redux",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "firebase": "^5.8.2",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "react-scripts": "2.1.5"
@@ -11,7 +13,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -21,5 +24,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
