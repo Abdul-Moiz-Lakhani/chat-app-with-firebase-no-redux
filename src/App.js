@@ -178,7 +178,8 @@ class App extends Component {
   handleLogOut = () => {
     firebase.auth().signOut()
       .then(() => {
-        firebase.database().ref(`users/${this.state.currentUser.userUid}/isActive`).set(false)
+        this.setState({ chatBoxes: {} });
+        firebase.database().ref(`users/${this.state.currentUser.userUid}/isActive`).set(false);
       })
   }
 
