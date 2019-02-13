@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "8a819e1000860d7145b0",
+    "revision": "e85c54134cdd221582d0",
     "url": "/chat-app-with-firebase-no-redux/static/css/main.ec61e850.chunk.css"
   },
   {
-    "revision": "8a819e1000860d7145b0",
-    "url": "/chat-app-with-firebase-no-redux/static/js/main.8a819e10.chunk.js"
+    "revision": "e85c54134cdd221582d0",
+    "url": "/chat-app-with-firebase-no-redux/static/js/main.e85c5413.chunk.js"
   },
   {
     "revision": "7c56a247f85b8917df37",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/chat-app-with-firebase-no-redux/static/js/2.47167315.chunk.js"
   },
   {
-    "revision": "87755fd4eb31d0270dd91ed9b9571fbb",
+    "revision": "4163c9bc95277a6cb3aa2dd28fef5dbd",
     "url": "/chat-app-with-firebase-no-redux/index.html"
   }
 ];
